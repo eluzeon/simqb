@@ -1,7 +1,7 @@
 import abc
 import typing
 
-from simqb.builder.conditions.where import ConditionNode
+from simqb.builder.nodes.condition import ConditionNode
 
 
 class BinaryOperator(ConditionNode, abc.ABC):

@@ -1,6 +1,6 @@
 import typing
 
-from simqb.builder.join import Join
+from simqb.builder.nodes.join import Join
 from simqb.builder.node import Node, NodeType
 from simqb.exceptions import NodeNotRegistered
 

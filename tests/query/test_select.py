@@ -1,7 +1,7 @@
 import pytest
 
 from simqb import select, eq, gt, lt
-from simqb.builder.select.fields import Field
+from simqb.builder.nodes.fields import Field
 
 
 @pytest.mark.parametrize("query, string", (
