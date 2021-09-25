@@ -5,6 +5,7 @@ from simqb.builder.nodes.fields import FieldSet, Field
 
 class ReturningMixin:
     def __init__(self):
+        super().__init__()
         self._returning = FieldSet()
 
     def returning(self, *fields: typing.Union[str, Field]) -> 'ReturningMixin':

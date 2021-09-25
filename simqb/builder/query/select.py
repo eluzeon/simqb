@@ -1,7 +1,7 @@
-from simqb.builder.mixins.condition import ConditionMixin
-from simqb.builder.mixins.fields import FieldsMixin
-from simqb.builder.mixins.join import JoinMixin
-from simqb.builder.mixins.order import OrderMixin
+from simqb.builder.mixins import ConditionMixin
+from simqb.builder.mixins import FieldsMixin
+from simqb.builder.mixins import JoinMixin
+from simqb.builder.mixins import OrderMixin
 from simqb.builder.node import Node
 
 

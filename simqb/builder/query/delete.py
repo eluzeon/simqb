@@ -12,3 +12,6 @@ class DeleteQuery(Node, ConditionMixin):
         if self._where:
             s += "WHERE {}".format(self._where.build())
         return s.strip()
+
+
+delete = DeleteQuery
