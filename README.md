@@ -1,15 +1,6 @@
 ## [Sim]ple[Q]uery[B]uilder
 
-----
-This project is Work in progress
------
 Simple python 3.6+ query builder
-
-### Features:
-- Typed (Python 3.6+)
-- Flexible
-- Lightweight
-
 
 ## 1. Selecting data
 You can create select query like this:
